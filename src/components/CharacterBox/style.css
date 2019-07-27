@@ -1,4 +1,4 @@
-.card {
+.cardz {
   background: #fff;
   border-radius: 2px;
   height: 150px;
@@ -9,13 +9,13 @@
   text-align: left;
 }
 
-.card > .img-container {
-  height: 60%;
+.cardz > .img-container {
+  height: 100%;
   overflow: hidden;
   text-align: center;
   background:#6CADDC;
 }
-.card > .img-container > img {
+.cardz > .img-container > img {
   width: 60%
 }
 

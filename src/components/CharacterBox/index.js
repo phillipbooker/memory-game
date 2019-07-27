@@ -4,7 +4,7 @@ import "./style.css";
 class CharacterBox extends Component{
   render(){
     return (
-      <div className="card">
+      <div className="cardz">
         <div className="img-container">
           <img
             alt={this.props.name}
@@ -16,13 +16,6 @@ class CharacterBox extends Component{
               }
             }
           />
-        </div>
-        <div className="content">
-          <ul>
-            <li>
-              <strong>Clicked:</strong> {this.props.clicked.toString()}
-            </li>
-          </ul>
         </div>
       </div>
     );
