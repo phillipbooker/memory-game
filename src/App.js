@@ -56,7 +56,7 @@ class App extends Component{
       <Wrapper>
         <h1 className="title">Memory Game</h1>
         <h2 className="text-center">Click the pictures to play! Don't click the same character more than once or your score will reset!</h2>
-        <h2>Score: {this.state.score}</h2>
+        <h1 className="w-100 text-center">Score: {this.state.score}</h1>
         {
           this.state.characters.map(character => 
             <CharacterBox image={character.image}
